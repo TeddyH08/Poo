@@ -9,13 +9,10 @@
     </head>
 
     <body>
-        <h2>Choisir une classe :</h2>
-        <a href="mage.php">Créer un mage</a>
-        <br>
-        <br>
-        <a href="guerrier.php">Créer un guerrier</a>
-        <br>
-        <br>
-        <a href="index.php">Retour</a>
+        <h2>Création de votre mage :</h2>
+        <form action="" method="post">
+            <label for="">Nom de votre personnage :</label>
+            <input type="text">
+        </form>
     </body>
 </html>

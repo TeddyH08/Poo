@@ -7,15 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>POO Games</title>
     </head>
-
+    
     <body>
-        <h2>Choisir une classe :</h2>
-        <a href="mage.php">Créer un mage</a>
-        <br>
-        <br>
-        <a href="guerrier.php">Créer un guerrier</a>
-        <br>
-        <br>
-        <a href="index.php">Retour</a>
+        
     </body>
 </html>
