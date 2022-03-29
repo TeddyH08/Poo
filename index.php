@@ -18,18 +18,15 @@
         <br>
 
         <?php
-            require "assets/php/create.php";
+            require "assets/php/perso.php";
 
-            $eldryr = new Guerrier("Guerrier", "Eldryr");
+            var_dump($guerrier);
 
-            $maelstorm = new Mage("Mage", "Maëlstorm");
+            var_dump($mage);
 
-            var_dump($eldryr);
-
-            var_dump($maelstorm);
-
-            var_dump($eldryr->mort());
+            var_dump($guerrier->mort());
         ?>
 
+        <a href="fight.php">Combat !</a>
     </body>
 </html>

@@ -1,12 +1,12 @@
 <?php
 
 class Personnage {
-    public $vie;
-    public $atk;
-    public $def;
-    public $vit;
-    public $classe;
-    public $nom;
+    private $vie;
+    private $atk;
+    private $def;
+    private $vit;
+    private $classe;
+    private $nom;
 
 
     public function __construct(){
@@ -14,6 +14,8 @@ class Personnage {
         $this->atk = 0;
         $this->def = 0;
         $this->vit = 0;
+        $this->classe = "";
+        $this->nom = "";
     }
 
     public function mort() {
